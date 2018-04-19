@@ -1,0 +1,16 @@
+@mixin clearfix {
+    &::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+}
+
+@mixin col-width($col-num) {
+    width: calc((100% - ((#{$col-num} - 1) * #{$gutter-horizontal})) /#{$col-num});
+    background-color: orange;
+    float: left;
+    &:not(:last-child) {
+        margin-right: $gutter-horizontal;
+    }
+}

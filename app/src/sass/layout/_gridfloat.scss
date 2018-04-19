@@ -1,0 +1,53 @@
+.row {
+    // text-align: center;
+    // color: orange;
+    max-width: $grid-width-1;
+    // background-color: rgb(122, 122, 122);
+    margin: 0 auto;
+    @include clearfix;
+    &:not(:last-child) {
+        // not for applaying to all exept the last-child.
+        margin-bottom: $gutter-vertical;
+    }
+    &>* {
+        // height: 35px;
+        float: left;
+        &:not(:last-child) {
+            margin-right: $gutter-horizontal;
+        }
+    }
+    // [class^="col-1"] {
+    //     float: left;
+    //     &:not(:last-child) {
+    //         margin-right: $gutter-horizontal;
+    //     }
+    // }
+    .col-1-of-2 {
+        // background-color: rebeccapurple;
+        width: calc((100% - #{$gutter-horizontal}) / 2);
+    }
+    .col-1-of-3 {
+        background-color: red;
+        width: calc((100% - 2 * #{$gutter-horizontal}) / 3);
+        float: left;
+    }
+    .col-1-of-4 {
+        background-color: peachpuff;
+        width: calc((100% - 3 * #{$gutter-horizontal}) / 4);
+    }
+    .col-2-of-3 {
+        // display: block;
+        background-color: rgb(110, 62, 19);
+        width: calc(2*((100% - 2 * #{$gutter-horizontal}) / 3) + #{$gutter-horizontal});
+    }
+    .col-2-of-4 {
+        // display: block;
+        background-color: rgb(110, 62, 19);
+        width: calc(2*((100% - 3 * #{$gutter-horizontal}) / 4) + #{$gutter-horizontal});
+    }
+    .col-3-of-4 {
+        // display: block;
+        background-color: rgb(110, 62, 19);
+        width: calc(3*((100% - 3 * #{$gutter-horizontal}) / 4) + 2 * #{$gutter-horizontal});
+    }
+}

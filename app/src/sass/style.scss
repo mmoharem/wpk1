@@ -1,0 +1,13 @@
+@import "../../../node_modules/normalize.scss/normalize.scss";
+@import "helpers/_mixins";
+@import "helpers/_variables";
+@import "layout/_gridfloat";
+.header {
+    font-size: 2rem;
+    color: red;
+    text-align: center;
+}
+
+h1 {
+    display: block;
+}

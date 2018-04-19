@@ -46,16 +46,19 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'kazbittoq54cq3cpvotc7zffdacuzrrqcxlkufssw36xchsldnqweqt3dd2o7czi');
-define('SECURE_AUTH_KEY',  '49vc7imppn4zfd9wtci5gpqfjc8llvg8hpi3j4t5z2t1vpzil4n4zwcbqjoiz8p8');
-define('LOGGED_IN_KEY',    'enbj6ej50l5ehhlowgjebz8t9b3ynnkrkyp8vhwaadso2ar6gghifwxfcuurzkao');
-define('NONCE_KEY',        '5f1rkvandtaf4qigrre3dy2butllnzd4wckfm5567wxnyleloee3srlg2yejrjzw');
-define('AUTH_SALT',        'rpj53xyimnpqrtvopqljs794ampyd4p6ljh4jmei4qh0i91grzecz7fozoy6ln1r');
-define('SECURE_AUTH_SALT', 'rghm7kswwaylxxt1tpxmvj92cpm2ngbbxes9c10gtho9gth2mhv2bdcf2c8nzouj');
-define('LOGGED_IN_SALT',   'g2xbvodqga2yzgiausd0a1paos2sntllocuspnlcj78bbn9obycqczdbwmzrv4tt');
-define('NONCE_SALT',       '7yhkwrttfftc0jon8sym58i9behulfkehitk9pd0gmai5qrltyzyth8takpy6mdy');
+define('AUTH_KEY',         '$b/O9kA_r;!fH==<7>whJp;93+?Zsg4m^-Ts=~=7W sOzuml-zZsi|=SD$zZX&D=');
+define('SECURE_AUTH_KEY',  '@oHn^QH`03P@j/&r..OR#N3!qT-xPVWW!@b;*B}eR0W!tsZBz_)bDy5HvxH#P]7g');
+define('LOGGED_IN_KEY',    '*aD{K^T>Rl,sE.u%Kjrw_0EeOx8Aas3srSN7]8=DB/fM|QBvfLoQ.<:U~*j~l(?J');
+define('NONCE_KEY',        ':!bTR#oq/*][)(_u-}BI$peMHp:`=iyjhXl&?7k/c~}Hl325_/C!XJ%xJ}p.{Gi5');
+define('AUTH_SALT',        'V @^%hA9lO}LUh+oT/2N7Abwl`F[H%ttf+iq3E&OY6Z]S,ChK#fvbqU&Ng!C3q8c');
+define('SECURE_AUTH_SALT', 'mr;2J]:hOFcBl-_w^ lh}*G#09ga![N#[Grfr0CX.^!YPb} Y$5x3pX.*hPKSK&$');
+define('LOGGED_IN_SALT',   'N01!dika:u48SoDPoG~[T,-(}2yrWA1X5jSO:a2< /hiJydZEb,7)_;mKcxPc`1p');
+define('NONCE_SALT',       'EP I3Go7KwKCu!:B,+28{!;8>j59uY~OhRik!2;D>4Kt]P6et17Ha )Fw c|U>*m');
 
 /**#@-*/
+
+define( 'WP_MEMORY_LIMIT', '96M' );
+
 
 /**
  * WordPress Database Table prefix.
@@ -63,7 +66,7 @@ define('NONCE_SALT',       '7yhkwrttfftc0jon8sym58i9behulfkehitk9pd0gmai5qrltyzy
  * You can have multiple installations in one database if you give each
  * a unique prefix. Only numbers, letters, and underscores please!
  */
-$table_prefix  = 'wp6u_';
+$table_prefix  = 'wph1_';
 
 /**
  * For developers: WordPress debugging mode.
